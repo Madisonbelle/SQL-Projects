@@ -1,0 +1,14 @@
+SELECT*
+FROM superstore
+ORDER BY price;
+
+SELECT SUM(price)
+FROM superstore;
+
+SELECT SUM(price)
+FROM superstore
+WHERE category = 'Kitchen Supplies';
+
+SELECT SUM(stock_quantity)
+FROM superstore
+WHERE item_name = 'Premium Coffee Maker';
